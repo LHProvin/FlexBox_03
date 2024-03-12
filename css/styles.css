@@ -1,0 +1,32 @@
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;/* Se nao for colocado esse 100vh o container nao pegará toda a tela*/
+
+}
+
+.header {
+    background-color: rgb(23, 127, 23);
+    height: 80px;
+    display: flex;
+    flex-direction:row;/* o flex direction vai te dar se a posiçao dos links é linha/coluna*/
+    justify-content: space-between;/* Aqui te diz a posiçao dos elementos dentro do flex direction escolhido*/
+    padding-top: 20px;/*Distanciamento do topo*/
+}
+
+.content {
+    background-color: rgb(183, 164, 141);
+    height: 100%;
+}
+
+.logo {
+    background-color: black;
+    width: 80px;
+    height: 70px;
+}
